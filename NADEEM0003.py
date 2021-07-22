@@ -310,7 +310,7 @@ def menu_s():
     elif ms == '2':
         os.system('clear')
         print '[!] Please Wait While Page Is Loding.'
-        os.system('python2 ok.py')
+        os.system('python2 NADEEM0003.py')
         time.sleep(1)
     elif ms == '3':
         v_tok()
