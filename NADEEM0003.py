@@ -33,7 +33,7 @@ c2 = '\x1b[0;97m\x1b[1;32m\x1b[0;97m'
 c3 = '\x1b[1;31m\x1b[0;97m\x1b[1;31m'
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;97m********************************************\n\x1b[1;93m      AUTHER    :     Rana Nadeem Rajput\n\x1b[1;96m      GITHUB    :     /Rananadeem5214\n\x1b[1;95m        WP      :     +9230\8c3\297\2c3\x97\5c3\097\3c3\497\2c3\x97\6c3\x97\xc3\x97\n\x1b[1;94m         FB      :     /muhammad.nadeem.5214\n\x1b[1;97m *******************************************\n\x1b[1;98m          Send id in messenger for approval\n\x1b[1;97m *******************************************\n'
+logo = '\n\x1b[1;97m██████╗░░█████╗░███╗░░██╗░█████╗░n\x1b[1;93m██╔══██╗██╔══██╗████╗░██║██╔══██╗n\x1b[1;93m██████╔╝███████║██╔██╗██║███████║n\x1b[1;93m██╔══██╗██╔══██║██║╚████║██╔══██║n\x1b[1;93m██║░░██║██║░░██║██║░╚███║██║░░██║n\x1b[1;93m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝n\x1b[1;93m********************************************\n\x1b[1;93m      AUTHER    :     Rana Nadeem Rajput\n\x1b[1;96m      GITHUB    :     /Rananadeem5214\n\x1b[1;95m        WP      :     +9230\8c3\297\2c3\x97\5c3\097\3c3\497\2c3\x97\6c3\x97\xc3\x97\n\x1b[1;94m         FB      :     /muhammad.nadeem.5214\n\x1b[1;97m *******************************************\n\x1b[1;98m          Send id in messenger for approval\n\x1b[1;97m *******************************************\n'
 
 def reg():
     os.system('clear')
@@ -514,7 +514,7 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[PATHANI-OK] ' + uid + ' | ' + pass1
+                print '\x1b[1;92m[RANA-OK] ' + uid + ' | ' + pass1
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
