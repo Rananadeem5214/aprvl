@@ -33,7 +33,7 @@ c2 = '\x1b[0;97m\x1b[1;32m\x1b[0;97m'
 c3 = '\x1b[1;31m\x1b[0;97m\x1b[1;31m'
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;97m********************************************\n\x1b[1;93m      AUTHER    :     Rana Nadeem Rajput\n\x1b[1;96m      GITHUB    :     /Rananadeem5214\n\x1b[1;95m        Whatsap      :     +923082503426n\x1b[1;94m         FB      :     /muhammad.nadeem.5214\n\x1b[1;97m *******************************************\n\x1b[1;98m          Send id in messenger for approval\n\x1b[1;97m *******************************************\n'
+logo = '\n\x1b[1;97m********************************************\n\x1b[1;93m      AUTHER    :     Rana Nadeem Rajput\n\x1b[1;96m      GITHUB    :     /Rananadeem5214\n\x1b[1;95m        Wp      :     +923082503426\n\x1b[1;94m         FB      :     /muhammad.nadeem.5214\n\x1b[1;97m *******************************************\n\x1b[1;98m          Send id in messenger for approval\n\x1b[1;97m *******************************************\n'
 
 def reg():
     os.system('clear')
@@ -43,7 +43,7 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/.hst.txt', 'r').read()
+        to = open('/sdcard/.server.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
 
@@ -310,7 +310,7 @@ def menu_s():
     elif ms == '2':
         os.system('clear')
         print '[!] Please Wait While Page Is Loding.'
-        os.system('python2 NADEEM0003.py')
+        os.system('python2 BrandedRajput1.py')
         time.sleep(1)
     elif ms == '3':
         v_tok()
